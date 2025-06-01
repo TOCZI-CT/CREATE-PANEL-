@@ -1,0 +1,18 @@
+debug: false
+uuid: a65c0dac-7cb8-4bd8-8628-1f46421b76bb
+token_id: 9aMmuXbEJj1DImFE
+token: HGS4Yt2E6UYiVLn1ANssBuQu6lZc5JXQDIos3jYkt1a9047R2roDshDiX9C31ict
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/node.prexzyvilla.web.id/fullchain.pem
+    key: /etc/letsencrypt/live/node.prexzyvilla.web.id/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://redesigned-doodle-7vx9j966g4g5crw44-80.app.github.dev'
